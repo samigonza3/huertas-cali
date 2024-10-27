@@ -12,7 +12,7 @@ export default function Overview() {
     <DashboardLayout>
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-2xl font-bold text-gray-900">Dashboard Overview</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
           <div className="space-x-4">
             <button
               onClick={() => setIsAddSeedModalOpen(true)}
@@ -40,7 +40,7 @@ export default function Overview() {
                 </div>
                 <div className="ml-5 w-0 flex-1">
                   <dl>
-                    <dt className="text-sm font-medium text-gray-500 truncate">Available Seeds</dt>
+                    <dt className="text-sm font-medium text-gray-500 truncate">Semillas Disponibles</dt>
                     <dd className="flex items-baseline">
                       <div className="text-2xl font-semibold text-gray-900">12</div>
                     </dd>
@@ -58,9 +58,9 @@ export default function Overview() {
                 </div>
                 <div className="ml-5 w-0 flex-1">
                   <dl>
-                    <dt className="text-sm font-medium text-gray-500 truncate">Available Produce</dt>
+                    <dt className="text-sm font-medium text-gray-500 truncate">Producción Disponible</dt>
                     <dd className="flex items-baseline">
-                      <div className="text-2xl font-semibold text-gray-900">8</div>
+                      <div className="text-2xl font-semibold text-gray-900">80 lbs.</div>
                     </dd>
                   </dl>
                 </div>
@@ -68,9 +68,11 @@ export default function Overview() {
             </div>
           </div>
         </div>
+        
+        
+        <h1 className="text-2xl font-bold mb-4 text-gray-900">Mapa de Huertas Comunitarias</h1>
 
         <div className="bg-white p-6 rounded-lg shadow mb-8">
-          <h2 className="text-xl font-semibold mb-4">Community Gardens in Cali</h2>
           <GardenMap />
         </div>
 

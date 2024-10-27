@@ -8,12 +8,12 @@ interface DashboardLayoutProps {
 }
 
 export const sidebarItems = [
-  { icon: Home, label: 'Overview', href: '/dashboard' },
-  { icon: Leaf, label: 'My Seeds', href: '/dashboard/seeds' },
-  { icon: ShoppingBasket, label: 'My Produce', href: '/dashboard/produce' },
-  { icon: Flower2, label: 'My Garden', href: '/dashboard/garden' },
-  { icon: Users, label: 'Community', href: '/dashboard/community' },
-  { icon: Settings, label: 'Settings', href: '/dashboard/settings' },
+  { icon: Home, label: 'Dashboard', href: '/dashboard' },
+  { icon: Leaf, label: 'Mis Semillas', href: '/dashboard/seeds' },
+  { icon: ShoppingBasket, label: 'Mi Producción', href: '/dashboard/produce' },
+  { icon: Flower2, label: 'Mi Huerta', href: '/dashboard/garden' },
+  { icon: Users, label: 'Comunidad', href: '/dashboard/community' },
+  { icon: Settings, label: 'Configuración', href: '/dashboard/settings' },
 ];
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
